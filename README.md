@@ -1,11 +1,14 @@
-# Bienvenue sur le repository PPE2!
+# Welcome to the PPE2 repository!
 
- **Description du repo PPE2 :**
+ **Description of the PPE2 repository :**
 	 
 
- - Second projet effectué durant la première année de BTS SIO
- - Site web e-commerce => html5/php7/css3/sql
- - Ajout panier
- - Liste des produits
- - Inscription/connexion
- - Profil
+ - Second project carried out during the first year of BTS SIO 
+ - Website e-commerce => html5/php7/css3/sql
+ - Add to cart functionality 
+ - Products List
+ - Register/login
+ - Profile
+ - Database in "SQL" folder
+
+### Creator => FIGUERES Adrien "Adriraxor"
