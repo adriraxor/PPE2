@@ -11,4 +11,4 @@
  - Profile
  - Database in "SQL" folder
 
-### Developer => FIGUERES Adrien "Adriraxor"
+#### Developer => FIGUERES Adrien "Adriraxor"
