@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+html
+{
+    overflow-y: hidden;
+    overflow-x: hidden;  
+}
+
+body 
+{
+  min-height: 100vh;
+  z-index: 23;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin: 0;      /*Suppression des bordure blanches par défaut des body*/
+  padding: 0;     /*Suppression des bordure blanches par défaut des body*/
+}
+
+body:before 
+{
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */     
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+}
+
+/*Box*/
+#rectangle
+{
+  background-color: white;
+  width: 530px;
+  padding: 100px 60px;
+  display: inline-block;
+  text-align: center;
+  z-index: 20;
+  backface-visibility: hidden;
+  border-radius: 13px;
+  -webkit-box-shadow: 2px 0px 50px -12px rgba(0,0,0,0.68);
+  -moz-box-shadow: 2px 0px 50px -12px rgba(0,0,0,0.68);
+  box-shadow: 2px 0px 50px -12px rgba(0,0,0,0.68);
+  opacity: 0.8;
+}
+
+/*Contenu du formulaire / rectangle*/
+.container 
+{
+  width: 100%;
+  padding: 220px 40px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  z-index: 22;
+}
+
+
+input
+{
+  border-radius: 8px;
+}
+
+/*Effet sur le champs de saisie (Contour grisé avec transition)*/
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+
+/*button
+{
+  width: 320px;
+  height: 30px;
+  border-radius: 8px;
+}
+*/
+  button {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(90deg,#1d953f 0%,#209542 20.343056921228012%,#4dde76 20.343056921228012%,#4dde76 100%);
+  border-radius: 5px;
+  border: 0px solid #444444;
+  border-width: 0px 0px 0px 0px;
+  padding: 10px 24px 10px 50px;
+  color: green;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: bold;
+  font-style: normal;
+  }
+
+  button:hover 
+{
+  color: #003300
+
+}
+  .retourIndex {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(90deg,#1d953f 0%,#209542 20.343056921228012%,#4dde76 20.343056921228012%,#4dde76 100%);
+  border-radius: 5px;
+  border: 0px solid #444444;
+  border-width: 0px 0px 0px 0px;
+  padding: 10px 24px 10px 50px;
+  color: green;
+  font-size: 10px;
+  font-family: arial ;
+  font-weight: bold;
+  font-style: normal
+  }
+
+   button
+  {
+    transition: all 0.3s ease-in-out;
+  }

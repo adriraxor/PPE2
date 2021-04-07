@@ -1,0 +1,51 @@
+.buy{
+	background-color: #333333;
+	color: #FF9900;
+}
+
+.buy.titre{
+	color: white;
+    padding-top: 30px;
+}
+
+.info-prix{
+	margin-top: 65%;
+	padding: 10px;
+}
+
+.prix{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 1vh;
+}
+
+.prix-conseil{
+	color: #999999;
+	display: inline;
+	text-decoration: line-through;
+	text-decoration-color: white;
+}
+
+.heart {
+  background-color: red;
+  height: 30px;
+  transform: rotate(-45deg);
+  width: 30px;
+  cursor: pointer;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  top: 0;
+  left: 15;
+  background-color: red;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+.heart:before {
+  top: -15px;
+  left: 0;
+}

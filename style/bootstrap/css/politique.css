@@ -1,0 +1,53 @@
+html
+{
+    overflow-y: hidden;
+	overflow-x: hidden;  
+    margin:0;
+    padding:0; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    width: 100%;
+}
+
+body:before 
+{
+	content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: url("../../images/politique.jpg") no-repeat; 
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */     
+    -webkit-filter: blur(2px);
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+
+    }
+
+
+.politique
+{
+	position: auto;
+	border: 0px solid black;
+	padding: 100px;
+
+}
+
+/*Responsive media querry*/
+@media (max-width: 575px)
+{
+	.politique
+	{
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+
+	.politique
+	{
+		text-align: center;
+	}
+	.politique
+	{
+		display: block;
+	}
+}
