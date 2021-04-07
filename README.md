@@ -10,5 +10,6 @@
  - Register/login
  - Profile
  - Database in "SQL" folder
+ - Bootstrap 4
 
 #### Developer => FIGUERES Adrien "Adriraxor"
